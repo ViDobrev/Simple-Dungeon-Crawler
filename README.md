@@ -22,6 +22,6 @@ Inputs are handled by typing in commands.
 **Num 3 -> move southeast**\
 **Num 2 -> move south**\
 **Num 1 -> move southwest**\
-**Num 4 -> move west**
+**Num 4 -> move west**\
 \
 **Num 5 -> attack current target**
