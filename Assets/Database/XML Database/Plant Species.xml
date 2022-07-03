@@ -1,0 +1,24 @@
+<PlantSpecies>
+	<Species> <!-- Berry Bush -->
+		<Name>Berry Bush</Name>
+		<Health>20</Health>
+		<GrowingRate>3</GrowingRate>
+		<Resource>Berry</Resource>
+		<GatherMethod>Harvest</GatherMethod>
+		<Yield Stage="Sprout">0</Yield>
+		<Yield Stage="Young">1</Yield>
+		<Yield Stage="Mature">2</Yield>
+		<Colour>Green</Colour>
+	</Species>
+	<Species> <!-- Tree -->
+		<Name>Tree</Name>
+		<Health>150</Health>
+		<GrowingRate>2</GrowingRate>
+		<Resource>Apple</Resource>
+		<GatherMethod>Harvest</GatherMethod>
+		<Yield Stage="Sprout">0</Yield>
+		<Yield Stage="Young">2</Yield>
+		<Yield Stage="Mature">3</Yield>
+		<Colour>Green</Colour>
+	</Species>
+</PlantSpecies>

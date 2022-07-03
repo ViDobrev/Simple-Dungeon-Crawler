@@ -1,0 +1,20 @@
+<Terrains>
+	<Terrain> <!-- Water -->
+		<Name>Water Terrain</Name>
+		<Traversible>False</Traversible>
+		<MovementRequired>0.0</MovementRequired>
+		<Colour>Blue</Colour>
+	</Terrain>
+	<Terrain> <!-- Grass -->
+		<Name>Grass Terrain</Name>
+		<Traversible>True</Traversible>
+		<MovementRequired>1.0</MovementRequired>
+		<Colour>Green</Colour>
+	</Terrain>
+	<Terrain> <!-- Stone -->
+		<Name>Stone Terrain</Name>
+		<Traversible>True</Traversible>
+		<MovementRequired>1.2</MovementRequired>
+		<Colour>Grey</Colour>
+	</Terrain>
+</Terrains>

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 833321bd4695688469cf675bede016c0, type: 3}
+  m_Name: TileManager
+  m_EditorClassIdentifier: 
+  tilePacks:
+  - packName: Terrains
+    tilePacks:
+    - name: Water Terrain
+      tile: {fileID: 11400000, guid: 0862c9a6a27c5c54e910fc4d1c933e90, type: 2}
+    - name: Grass Terrain
+      tile: {fileID: 11400000, guid: 84cc029297ba0c04e95d08b013975a42, type: 2}
+    - name: Stone Terrain
+      tile: {fileID: 11400000, guid: 2961b11a4850f034c971514274ef5e9a, type: 2}
+    - name: Unknown
+      tile: {fileID: 11400000, guid: 189e4598bef8e2844b803c1ea6d4a2e6, type: 2}
+  - packName: Species
+    tilePacks:
+    - name: Player
+      tile: {fileID: 11400000, guid: a877d2eb4db29c145b5df1543aff3eb5, type: 2}
+    - name: Human
+      tile: {fileID: 11400000, guid: a52d9374e2e9ad04a8ab5875f359198e, type: 2}
+    - name: Elf
+      tile: {fileID: 11400000, guid: 39de1a30078c4d84797be52dd4a843b9, type: 2}
+    - name: Orc
+      tile: {fileID: 11400000, guid: 56b69c767a875414c9da29c57676af44, type: 2}
+    - name: Undead
+      tile: {fileID: 11400000, guid: 74cbd31b8d79be745b5342f29f5a1041, type: 2}
+    - name: Goblin
+      tile: {fileID: 11400000, guid: acb5cb9c0e1707046bdc3387a8ad8ebc, type: 2}
+    - name: Troll
+      tile: {fileID: 11400000, guid: 48ff49b88c0f33d4287e1ca634afae15, type: 2}
+    - name: Wolf
+      tile: {fileID: 11400000, guid: c97358edd4975e844a1bc03a160de0ef, type: 2}
+  - packName: Plant Species
+    tilePacks:
+    - name: Tree
+      tile: {fileID: 11400000, guid: bc2d6b85b9ef1d94fb64dccdc650a952, type: 2}
+    - name: Berry Bush
+      tile: {fileID: 11400000, guid: e6034eddccefa0f44a539c1dff63c60c, type: 2}
+  - packName: Structures
+    tilePacks:
+    - name: Wall
+      tile: {fileID: 11400000, guid: 346a3821904457d4fad31ad7c38f3911, type: 2}
+    - name: Door
+      tile: {fileID: 11400000, guid: 698336f4805509248a417b13d81e66af, type: 2}
+    - name: Chest
+      tile: {fileID: 11400000, guid: 77f6a9c52756f7e41bf0fdcb6ad77466, type: 2}
+    - name: Ornate Chest
+      tile: {fileID: 11400000, guid: 77f6a9c52756f7e41bf0fdcb6ad77466, type: 2}
+    - name: Workstation
+      tile: {fileID: 11400000, guid: d0e26eb70063cbe43a099a63891727bc, type: 2}
+    - name: Entrance
+      tile: {fileID: 11400000, guid: 299885e9a9e2c6845b14b9f919b50549, type: 2}
+    - name: Exit
+      tile: {fileID: 11400000, guid: 1a91fefc8e028a947a975ccadb65063c, type: 2}
+  - packName: Items
+    tilePacks:
+    - name: Bread
+      tile: {fileID: 11400000, guid: febc255ba5a816645802a7d27be2ca9b, type: 2}
+    - name: Meat
+      tile: {fileID: 11400000, guid: a0f96c0970e709a42b2775298d24d39e, type: 2}
+    - name: Berry
+      tile: {fileID: 11400000, guid: b07990d4b6585ec47b3bf7a25d31b9e4, type: 2}
+    - name: Apple
+      tile: {fileID: 11400000, guid: ac3936c1baa94dd428de52b3b2fb5f0d, type: 2}
+    - name: Helmet
+      tile: {fileID: 11400000, guid: 89f7efff5e22d26459b298ec51883631, type: 2}
+    - name: Tunic
+      tile: {fileID: 11400000, guid: 3573660b9f855f54a91ffbfb26b2e900, type: 2}
+    - name: Gloves
+      tile: {fileID: 11400000, guid: 7ea318d6a9e82ea4c8ca17fe76ef3dde, type: 2}
+    - name: Trousers
+      tile: {fileID: 11400000, guid: 30236d3d8889ab448b02b037448cd187, type: 2}
+    - name: Boots
+      tile: {fileID: 11400000, guid: 4faacc1dc98125b409e147f712ffe069, type: 2}
+    - name: Axe
+      tile: {fileID: 11400000, guid: cc73878597f740244b19db7297ec8d26, type: 2}
+    - name: Hammer
+      tile: {fileID: 11400000, guid: 1c4955b6da9656e4aa1f56e799bacaee, type: 2}
+    - name: Pickaxe
+      tile: {fileID: 11400000, guid: b16a3d44b603beb4c8b5e019a89425cb, type: 2}
+    - name: Sword
+      tile: {fileID: 11400000, guid: d45f9df77ef33c043a01059ba5a26bc9, type: 2}
+    - name: Club
+      tile: {fileID: 11400000, guid: 051c98c9174229a43ab1a7f3d8977738, type: 2}
+    - name: Shield
+      tile: {fileID: 11400000, guid: 5a414fb9a1154064199dad6ce6794139, type: 2}
+  - packName: Floors
+    tilePacks:
+    - name: Stone Floor
+      tile: {fileID: 11400000, guid: ba1a296e47f661d448592e434695247d, type: 2}
+    - name: Wood Floor
+      tile: {fileID: 11400000, guid: ba1a296e47f661d448592e434695247d, type: 2}

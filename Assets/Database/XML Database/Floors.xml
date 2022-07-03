@@ -1,0 +1,10 @@
+<Floors>
+	<Floor> <!-- Stone Floor -->
+		<Name>Stone Floor</Name>
+		<Colour>Grey</Colour>
+	</Floor>
+	<Floor> <!-- Wood Floor -->
+		<Name>Wood Floor</Name>
+		<Colour>Brown</Colour>
+	</Floor>
+</Floors>

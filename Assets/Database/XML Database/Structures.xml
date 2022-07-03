@@ -1,0 +1,37 @@
+<Structures>
+	<Structure> <!-- Workstation -->
+		<Name>Workstation</Name>
+		<Tag>Workstation</Tag>
+		<InventorySlots>0</InventorySlots>
+		<CanBeOpened>True</CanBeOpened>
+		<Colour>Brown</Colour>
+	</Structure>
+	<Structure> <!-- Chest -->
+		<Name>Chest</Name>
+		<Tag>Storage</Tag>
+		<InventorySlots>10</InventorySlots>
+		<CanBeOpened>True</CanBeOpened>
+		<Colour>Brown</Colour>
+	</Structure>
+	<Structure> <!-- Ornate Chest -->
+		<Name>Ornate Chest</Name>
+		<Tag>Storage</Tag>
+		<InventorySlots>10</InventorySlots>
+		<CanBeOpened>True</CanBeOpened>
+		<Colour>Yellow</Colour>
+	</Structure>
+	<Structure> <!-- Wall -->
+		<Name>Wall</Name>
+		<Tag>Wall</Tag>
+		<InventorySlots>0</InventorySlots>
+		<CanBeOpened>False</CanBeOpened>
+		<Colour>White</Colour>
+	</Structure>
+	<Structure> <!-- Door -->
+		<Name>Door</Name>
+		<Tag>Door</Tag>
+		<InventorySlots>0</InventorySlots>
+		<CanBeOpened>True</CanBeOpened>
+		<Colour>Brown</Colour>
+	</Structure>
+</Structures>

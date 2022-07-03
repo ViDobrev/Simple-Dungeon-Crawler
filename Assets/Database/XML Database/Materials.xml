@@ -1,0 +1,107 @@
+<Materials>
+	<Material> <!-- Wood -->
+		<Name>Wood</Name>
+		<Type>Weapon</Type>
+		<Adjective>Wooden</Adjective>
+		<Tier>1</Tier>
+		<Modifier>0</Modifier>
+	</Material>
+	<Material> <!-- Stone -->
+		<Name>Stone</Name>
+		<Type>Weapon</Type>
+		<Adjective>Stone</Adjective>
+		<Tier>1</Tier>
+		<Modifier>1</Modifier>
+	</Material>
+	<Material> <!-- Cloth -->
+		<Name>Cloth</Name>
+		<Type>Armour</Type>
+		<Adjective>Cloth</Adjective>
+		<Tier>1</Tier>
+		<Modifier>0</Modifier>
+	</Material>
+	<Material> <!-- Leather -->
+		<Name>Leather</Name>
+		<Type>Armour</Type>
+		<Adjective>Leather</Adjective>
+		<Tier>2</Tier>
+		<Modifier>1</Modifier>
+	</Material>
+	<Material> <!-- Copper -->
+		<Name>Copper</Name>
+		<Type>Weapon Armour</Type>
+		<Adjective>Copper</Adjective>
+		<Tier>2</Tier>
+		<Modifier>2</Modifier>
+	</Material>
+	<Material> <!-- Iron -->
+		<Name>Iron</Name>
+		<Type>Weapon Armour</Type>
+		<Adjective>Iron</Adjective>
+		<Tier>2</Tier>
+		<Modifier>3</Modifier>
+	</Material>
+	<Material> <!-- Steel -->
+		<Name>Steel</Name>
+		<Type>Weapon Armour</Type>
+		<Adjective>Steel</Adjective>
+		<Tier>3</Tier>
+		<Modifier>4</Modifier>
+	</Material>
+	<Material> <!-- Gold -->
+		<Name>Gold</Name>
+		<Type>Armour</Type>
+		<Adjective>Golden</Adjective>
+		<Tier>3</Tier>
+		<Modifier>5</Modifier>
+	</Material>
+	<Material> <!-- Obsidian -->
+		<Name>Obsidian</Name>
+		<Type>Weapon</Type>
+		<Adjective>Obsidian</Adjective>
+		<Tier>3</Tier>
+		<Modifier>5</Modifier>
+	</Material>
+	<Material> <!-- Enchanted Wood -->
+		<Name>Enchanted Wood</Name>
+		<Type>Weapon Armour</Type>
+		<Adjective>Enchanted wood</Adjective>
+		<Tier>4</Tier>
+		<Modifier>6</Modifier>
+	</Material>
+	<Material> <!-- Meteorite -->
+		<Name>Meteorite</Name>
+		<Type>Weapon Armour</Type>
+		<Adjective>Meteorite</Adjective>
+		<Tier>4</Tier>
+		<Modifier>7</Modifier>
+	</Material>
+	<Material> <!-- Moonrock -->
+		<Name>Moonrock</Name>
+		<Type>Weapon</Type>
+		<Adjective>Moonrock</Adjective>
+		<Tier>5</Tier>
+		<Modifier>8</Modifier>
+	</Material>
+	<Material> <!-- Crystal -->
+		<Name>Crystal</Name>
+		<Type>Armour</Type>
+		<Adjective>Crystal</Adjective>
+		<Tier>5</Tier>
+		<Modifier>8</Modifier>
+	</Material>
+	<Material> <!-- Shadowstone -->
+		<Name>Shadowstone</Name>
+		<Type>Weapon</Type>
+		<Adjective>Shadowstone</Adjective>
+		<Tier>6</Tier>
+		<Modifier>10</Modifier>
+	</Material>
+	<Material> <!-- Eldritch Fabric -->
+		<Name>Eldritch Fabric</Name>
+		<Type>Armour</Type>
+		<Adjective>Eldritch fabric</Adjective>
+		<Tier>6</Tier>
+		<Modifier>10</Modifier>
+	</Material>
+</Materials>

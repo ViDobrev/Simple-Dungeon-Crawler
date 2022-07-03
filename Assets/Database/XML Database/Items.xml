@@ -1,0 +1,109 @@
+<Items>
+	<!-- Foods -->
+	<Item> <!-- Bread -->
+		<Name>Bread</Name>
+		<Stackable>True</Stackable>
+	</Item>
+	<Item> <!-- Berry -->
+		<Name>Berry</Name>
+		<Stackable>True</Stackable>
+	</Item>
+	<Item> <!-- Apple -->
+		<Name>Apple</Name>
+		<Stackable>True</Stackable>
+	</Item>
+	<Item> <!-- Meat -->
+		<Name>Meat</Name>
+		<Stackable>True</Stackable>
+	</Item>
+
+	<!-- Armour -->
+	<Item> <!-- Helmet -->
+		<Name>Helmet</Name>
+		<Stackable>False</Stackable>
+		<Tag>Armour</Tag>
+		<Defence>1</Defence>
+		<EquipmentSlot>Head</EquipmentSlot>
+	</Item>
+	<Item> <!-- Tunic -->
+		<Name>Tunic</Name>
+		<Stackable>False</Stackable>
+		<Tag>Armour</Tag>
+		<Defence>2</Defence>
+		<EquipmentSlot>Torso</EquipmentSlot>
+	</Item>
+	<Item> <!-- Gloves -->
+		<Name>Gloves</Name>
+		<Stackable>False</Stackable>
+		<Tag>Armour</Tag>
+		<Defence>1</Defence>
+		<EquipmentSlot>Hands</EquipmentSlot>
+	</Item>
+	<Item> <!-- Trousers -->
+		<Name>Trousers</Name>
+		<Stackable>False</Stackable>
+		<Tag>Armour</Tag>
+		<Defence>2</Defence>
+		<EquipmentSlot>Legs</EquipmentSlot>
+	</Item>
+	<Item> <!-- Boots -->
+		<Name>Boots</Name>
+		<Stackable>False</Stackable>
+		<Tag>Armour</Tag>
+		<Defence>1</Defence>
+		<EquipmentSlot>Feet</EquipmentSlot>
+	</Item>
+
+	<!-- Weapons -->
+	<Item> <!-- Axe -->
+		<Name>Axe</Name>
+		<Stackable>False</Stackable>
+		<Tag>Weapon_Melee</Tag>
+		<Attack>2d8 Slashing</Attack>
+		<TwoHanded>False</TwoHanded>
+		<EquipmentSlot>Held</EquipmentSlot>
+	</Item>
+	<Item> <!-- Hammer -->
+		<Name>Hammer</Name>
+		<Stackable>False</Stackable>
+		<Tag>Weapon_Melee</Tag>
+		<Attack>1d20 Bludgeoning</Attack>
+		<TwoHanded>False</TwoHanded>
+		<EquipmentSlot>Held</EquipmentSlot>
+	</Item>
+	<Item> <!-- Pickaxe -->
+		<Name>Pickaxe</Name>
+		<Stackable>False</Stackable>
+		<Tag>Weapon_Melee</Tag>
+		<Attack>2d8 Piercing</Attack>
+		<TwoHanded>False</TwoHanded>
+		<EquipmentSlot>Held</EquipmentSlot>
+	</Item>
+	<Item> <!-- Sword -->
+		<Name>Sword</Name>
+		<Stackable>False</Stackable>
+		<Tag>Weapon_Melee</Tag>
+		<Attack>3d4 Slashing</Attack>
+		<Defence>1</Defence>
+		<TwoHanded>False</TwoHanded>
+		<EquipmentSlot>Held</EquipmentSlot>
+	</Item>
+	<Item> <!-- Club -->
+		<Name>Club</Name>
+		<Stackable>False</Stackable>
+		<Tag>Weapon_Melee</Tag>
+		<Attack>2d4 Bludgeoning</Attack>
+		<TwoHanded>False</TwoHanded>
+		<EquipmentSlot>Held</EquipmentSlot>
+	</Item>
+
+	<!-- Shields -->
+	<Item> <!-- Shield -->
+		<Name>Shield</Name>
+		<Stackable>False</Stackable>
+		<Tag>Shield</Tag>
+		<Defence>2</Defence>
+		<TwoHanded>False</TwoHanded>
+		<EquipmentSlot>Shield</EquipmentSlot>
+	</Item>
+</Items>

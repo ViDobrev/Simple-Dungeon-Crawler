@@ -1,0 +1,90 @@
+<Commands>
+	<Command> <!-- General Help -->
+		<Name></Name>
+		<Description>Objective: To progress to the next area, you must defeat this one's boss. Then proceed to the stairs going downwards and use the command 'climb/go down'.
+		Commands: move, pick, equip, unequip, drop, target, attack, open, close, inspect, climb, eat, increase.
+		Type 'help command' for specific information.
+		Type 'help shortcuts' for information on numpad shortcuts.</Description>
+	</Command>
+	<Command> <!-- Move -->
+		<Name>Move</Name>
+		<Description>move/go direction/down
+			Move in the specified direction. Down means go down the stairs to the next dungeon level.
+			Type 'help direction(s)' for a list of directions.</Description>
+	</Command>
+	<Command> <!-- Pick -->
+		<Name>Pick</Name>
+		<Description>pick/get/grab/take amount item name; Example: take 4 bread
+			Pick the specified item and place it in your inventory. If amount is not specified it defaults to 1.</Description>
+	</Command>
+	<Command> <!-- Equip -->
+		<Name>Equip</Name>
+		<Description>'equip item name' or 'equip item index in inventory'
+			Equip the specified item. If that equipment slot is already occupied by another item, that item will be placed in your inventory.</Description>
+	</Command>
+	<Command> <!-- Unequip -->
+		<Name>Unequip</Name>
+		<Description>'unequip item name' or 'unequip item index in inventory'
+			Unequip the specified item and place it in your inventory.</Description>
+	</Command>
+	<Command> <!-- Drop -->
+		<Name>Drop</Name>
+		<Description>drop item name [in container]
+			Drop the specified item from your inventory. If no container(chest/corpse) is specified, the item will be dropped on the ground.</Description>
+	</Command>
+	<Command> <!-- Target -->
+		<Name>Target</Name>
+		<Description>target direction
+			Sets the enemy located on the adjacent square in the specified direction as your target.
+			Type 'help direction(s)' for a list of directions.</Description>
+	</Command>
+	<Command> <!-- Attack -->
+		<Name>Attack</Name>
+		<Description>attack [direction]
+			Attack the enemy to the specified direction of you. If no direction is given, attack the target instead.
+			Type 'help direction(s)' for a list of directions.</Description>
+	</Command>
+	<Command> <!-- Open -->
+		<Name>Open</Name>
+		<Description>open chest/door
+			Open the specified structure.</Description>
+	</Command>
+	<Command> <!-- Close -->
+		<Name>Close</Name>
+		<Description>close chest/door
+			Close the specified structure.</Description>
+	</Command>
+	<Command> <!-- Inspect -->
+		<Name>Inspect</Name>
+		<Description>inspect self: Display information about yourself.
+			inspect continer: Display the contents of the specified container(chest/corpse)
+			inspect item name [from container]: Display the information about the specified item. If the item is inside a container(chest/corpse) it must be specified.</Description>
+	</Command>
+	<Command> <!-- Climb -->
+		<Name>Climb</Name>
+		<Description>climb down
+			Go down the stairs to the next dungeon level.</Description>
+	</Command>
+	<Command> <!-- Eat -->
+		<Name>Eat</Name>
+		<Description>'eat item name' or 'eat item index in inventory'
+			Eat the specified item to regain some health.</Description>
+	</Command>
+	<Command> <!-- Increase -->
+		<Name>Increase</Name>
+		<Description>increase stat (strength, agility, vitality)
+			Increase the specified attribute by 1.</Description>
+	</Command>
+	<Command> <!-- Direction -->
+		<Name>Direction</Name>
+		<Description>north(n), northeast(ne), east(e), southeast(se), south(s), southwest(sw), west(w), northwest(nw)</Description>
+	</Command>
+	<Command> <!-- Directions --> <!-- Redundancy -->
+		<Name>Directions</Name>
+		<Description>north(n), northeast(ne), east(e), southeast(se), south(s), southwest(sw), west(w), northwest(nw)</Description>
+	</Command>
+	<Command> <!-- Shortcuts -->
+		<Name>Shortcuts</Name>
+		<Description>Numpad: 7 - move nw, 8 - move n, 9 - move ne, 6 - move e, 3 - move se, 2 - move s, 1 - move sw, 4 - move w, 5 - attack target</Description>
+	</Command>
+</Commands>

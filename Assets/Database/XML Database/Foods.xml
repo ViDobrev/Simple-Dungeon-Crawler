@@ -1,0 +1,22 @@
+<Foods>
+	<Food> <!-- Berry -->
+		<Name>Berry</Name>
+		<Type>Herbivore</Type>
+		<Nutrition>20</Nutrition>
+	</Food>
+	<Food> <!-- Apple -->
+		<Name>Apple</Name>
+		<Type>Herbivore</Type>
+		<Nutrition>30</Nutrition>
+	</Food>
+	<Food> <!-- Bread -->
+		<Name>Bread</Name>
+		<Type>Herbivore</Type>
+		<Nutrition>35</Nutrition>
+	</Food>
+	<Food> <!-- Meat -->
+		<Name>Meat</Name>
+		<Type>Carnivore</Type>
+		<Nutrition>40</Nutrition>
+	</Food>
+</Foods>

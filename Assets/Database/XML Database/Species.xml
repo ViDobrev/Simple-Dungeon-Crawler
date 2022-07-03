@@ -1,0 +1,72 @@
+<FaunaSpecies>
+	<Species> <!-- Human -->
+		<Name>Human</Name>
+		<Intelligent>True</Intelligent>
+		<Stats>
+			<Stat Level="1">Strength</Stat>
+			<Stat Level="0">Agility</Stat>
+			<Stat Level="0">Vitality</Stat>
+		</Stats>
+		<UnarmedAttack>1d6 Crushing</UnarmedAttack>
+	</Species>
+	<Species> <!-- Elf -->
+		<Name>Elf</Name>
+		<Intelligent>True</Intelligent>
+		<Stats>
+			<Stat Level="0">Strength</Stat>
+			<Stat Level="1">Agility</Stat>
+			<Stat Level="0">Vitality</Stat>
+		</Stats>
+		<UnarmedAttack>1d6 Crushing</UnarmedAttack>
+	</Species>
+	<Species> <!-- Orc -->
+		<Name>Orc</Name>
+		<Intelligent>True</Intelligent>
+		<Stats>
+			<Stat Level="0">Strength</Stat>
+			<Stat Level="0">Agility</Stat>
+			<Stat Level="1">Vitality</Stat>
+		</Stats>
+		<UnarmedAttack>1d8 Crushing</UnarmedAttack>
+	</Species>
+	<Species> <!-- Undead -->
+		<Name>Undead</Name>
+		<Intelligent>True</Intelligent>
+		<Stats>
+			<Stat Level="1">Strength</Stat>
+			<Stat Level="0">Agility</Stat>
+			<Stat Level="0">Vitality</Stat>
+		</Stats>
+		<UnarmedAttack>1d6 Piercing</UnarmedAttack>
+	</Species>
+	<Species> <!-- Goblin -->
+		<Name>Goblin</Name>
+		<Intelligent>True</Intelligent>
+		<Stats>
+			<Stat Level="0">Strength</Stat>
+			<Stat Level="1">Agility</Stat>
+			<Stat Level="0">Vitality</Stat>
+		</Stats>
+		<UnarmedAttack>1d4 Crushing</UnarmedAttack>
+	</Species>
+	<Species> <!-- Troll -->
+		<Name>Troll</Name>
+		<Intelligent>True</Intelligent>
+		<Stats>
+			<Stat Level="0">Strength</Stat>
+			<Stat Level="0">Agility</Stat>
+			<Stat Level="1">Vitality</Stat>
+		</Stats>
+		<UnarmedAttack>1d6 Crushing</UnarmedAttack>
+	</Species>
+	<Species> <!-- Wolf -->
+		<Name>Wolf</Name>
+		<Intelligent>False</Intelligent>
+		<Stats>
+			<Stat Level="1">Strength</Stat>
+			<Stat Level="1">Agility</Stat>
+			<Stat Level="0">Vitality</Stat>
+		</Stats>
+		<UnarmedAttack>2d4 Slashing</UnarmedAttack>
+	</Species>
+</FaunaSpecies>
