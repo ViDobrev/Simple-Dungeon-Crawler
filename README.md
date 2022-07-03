@@ -15,13 +15,13 @@ Inputs are handled by typing in commands.
 
 
 ### **Keyboard Shortcuts:**
-**Num 7 -> move northwest**
-**Num 8 -> move north**
-**Num 9 -> move northeast**
-**Num 6 -> move east**
-**Num 3 -> move southeast**
-**Num 2 -> move south**
-**Num 1 -> move southwest**
+**Num 7 -> move northwest**\
+**Num 8 -> move north**\
+**Num 9 -> move northeast**\
+**Num 6 -> move east**\
+**Num 3 -> move southeast**\
+**Num 2 -> move south**\
+**Num 1 -> move southwest**\
 **Num 4 -> move west**
-
+\
 **Num 5 -> attack current target**
