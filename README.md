@@ -10,7 +10,7 @@ All other enemies are **<span style="color:red">red</span>**.
 
 Inputs are handled by typing in commands.
 ### ***Commands:***
-*move, pick (un)equip, drop, target, attack, open, close, inspect, climb, eat, increase*
+*move, pick, (un)equip, drop, target, attack, open, close, inspect, climb, eat, increase*\
 *help [command name]*
 
 
