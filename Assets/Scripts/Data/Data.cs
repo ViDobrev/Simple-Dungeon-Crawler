@@ -81,7 +81,11 @@ public static class Data
 
     public static Interactables Interactables { get => interactables; }
 
+    #if UNITY_EDITOR
     public static string PathToXmlDataBase { get => Application.dataPath + @"\Database\XML Database\"; }
+    #else
+    public static string PathToXmlDataBase { get => Application.dataPath + @"\XML Database\"; }
+    #endif
     public static string Unknown { get => "Unknown"; }
 
     public static Dictionary<ColourEnum, Color> ColourDict { get => colourDict; }

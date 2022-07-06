@@ -4,7 +4,7 @@ A very simple dungeon crawler game. The goal is to progress to the next dungeon 
 
 The stairs leading to the next level are **<span style="color:yellow">yellow</span>**. Their symbol is ↓\
 The current floor's boss is **<span style="color:orange">orange</span>**.\
-All other enemies are **<span style="color:red">red</span>**.\
+All other enemies are **<span style="color:red">red</span>**.
 
 Inputs are handled by typing in commands into the field at the bottom of the GUI.
 ### ***Commands:***
