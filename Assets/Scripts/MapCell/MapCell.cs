@@ -28,6 +28,7 @@ public class MapCell
     public bool Traversible { get => HasStructure ? !structure.Traversible : terrain.Traversible; }
     public bool CanBeMovedTo { get => Traversible && !HasAgent; }
 
+    public bool HasStaticObject { get => HasEntrance || HasItem || HasPlant || HasStructure || HasCorpse; }
     public bool HasEntrance { get => entrance != null; }
     public bool HasItem { get => item != null; }
     public bool HasPlant { get => plant != null; }
@@ -106,7 +107,7 @@ public class MapCell
                 return true;
             }
         }
-        else if (!HasItem && !HasStructure && !HasPlant && Traversible)
+        else if (!HasStaticObject && Traversible)
         {
             this.item = item;
             item.Item.SetLocation(this);
@@ -117,7 +118,7 @@ public class MapCell
     }
     public bool AddPlant(Plant plant)
     {// Returns true if plant was attached successfully
-        if (!HasPlant && !HasStructure && Traversible)
+        if (!HasStaticObject && Traversible)
         {
             this.plant = plant;
             this.plant.SetLocation(this);
@@ -128,7 +129,7 @@ public class MapCell
     }
     public bool AddStructure(Structure structure)
     {// Returns true if structure was attached successfully
-        if (!HasStructure && !HasPlant && Traversible)
+        if (!HasStaticObject && Traversible)
         {
             this.structure = structure;
             this.structure.SetLocation(this);
@@ -150,7 +151,7 @@ public class MapCell
     }
     public bool AddCorpse(Corpse corpse)
     {// Returns true if corpse was attached successfully
-        if (!HasCorpse && Traversible)
+        if (!HasStaticObject && Traversible)
         {
             this.corpse = corpse;
             corpse.SetLocation(this);
@@ -184,7 +185,7 @@ public class MapCell
 
     public bool AddDungeonEntrance(DungeonEntrance entrance)
     {// Returns true if entrance was attached successfully
-        if (!HasEntrance && Traversible)
+        if (!HasStaticObject && Traversible)
         {
             this.entrance = entrance;
             entrance.SetLocation(this);

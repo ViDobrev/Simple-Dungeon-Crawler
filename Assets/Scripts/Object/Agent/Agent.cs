@@ -86,7 +86,7 @@ public class Agent : Object
         //Debug.Log(name + " died!");
         if (this == Data.Dungeon.Boss) Data.Dungeon.UnlockExit();
 
-        MapCell corpseLocation = Utilities.GetClosestCellByCondition(location, (cell) => !cell.HasCorpse && cell.Traversible);
+        MapCell corpseLocation = Utilities.GetClosestCellByCondition(location, (cell) => !cell.HasStaticObject && cell.Traversible);
         if (corpseLocation == null) return;
 
         Corpse corpse = new Corpse(this);

@@ -106,7 +106,7 @@ public class UIControl : MonoBehaviour
 
         DungeonEntrance entrance = Data.Player.Location.Entrance;
         ItemSlot itemOnGround = Data.Player.Location.Item;
-        Inventory corpseInventory = Data.Interactables["corpse"];
+        Inventory corpseInventory = Data.Player.Location.Corpse != null ? Data.Player.Location.Corpse.Inventory : null;
         Inventory chestInventory = Data.Interactables["chest"];
 
         string stairsDescription = entrance != null && entrance.IsExit && !entrance.Unlocked ? ", but they are locked." : ".";

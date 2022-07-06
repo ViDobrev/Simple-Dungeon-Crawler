@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 113
+  controlID: 121
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 42
+  controlID: 122
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 43
+  controlID: 123
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,8 +273,8 @@ MonoBehaviour:
     y: 0
     width: 428
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -397,9 +397,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c27c0000
-      m_LastClickedID: 31938
-      m_ExpandedIDs: 04e4ffff1ce4ffffd0e4ffff42e6ffff5ae6ffff0ee7fffffee8ffff16e9ffffcae9ffff94eaffffaceaffffb6eaffff0cebffff24ebffffd8ebffff00edffff18edffffccedfffff4eeffff0cefffffc0efffff88f0ffffa0f0ffff54f1ffff7cf2ffff94f2ffff48f3ffff20f4ffff38f4ffffecf4ffffe4f5fffffcf5ffffb0f6ffffaef7ffffc8f7ffff80f8ffff62fbffff
+      m_SelectedIDs: e8050000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 62fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -577,21 +577,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Object/Structure
+    - Assets/Scripts/Control
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Object/Structure
+  - Assets/Scripts/Control
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Vicito\Unity Projects\Simple Dungeon Crawler
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: a2450000
-    m_LastClickedID: 17826
+    m_SelectedIDs: 8e450000
+    m_LastClickedID: 17806
     m_ExpandedIDs: 00000000784500007a4500007c450000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
